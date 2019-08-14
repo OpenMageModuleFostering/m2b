@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<package>
+    <name>M2b</name>
+    <version>0.1.3</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>bnkle-Magento integration. Auto link your bricks &amp;amp; mortar inventory to bnkle and get more customers in store.</summary>
+    <description>bnkle.com - let's customers search and see what's available in brick &amp;amp; mortar stores around them.&#xD;
+&#xD;
+The official M2b extension allows you to show the Magento store products that are in your bricks and mortar stores to customers searching with bnkle.com&#xD;
+&#xD;
+M2b extension features&#xD;
+&#xD;
+Auto sync inventory: Your Magento store inventory is auto synced to your free bnkle account. inc:&#xD;
+&#xD;
+- Product title&#xD;
+&#xD;
+- Product description&#xD;
+&#xD;
+- Pricing - Search tags&#xD;
+&#xD;
+- Images - Options (color,size, etc)&#xD;
+&#xD;
+- Magento product url (users click through for direct purchase - free site traffic)&#xD;
+&#xD;
+- Stock levels (inventory is auto refreshed daily)&#xD;
+&#xD;
+These features allow quick and simple creation as well as management of product listings on bnkle. Significantly reduce time required for listing maintenance.&#xD;
+&#xD;
+&#xD;
+&#xD;
+Other functions on your free bnkle.com dashboard&#xD;
+&#xD;
+&#xD;
+&#xD;
+Product controls&#xD;
+&#xD;
+- Control which of your Magento store categories you want to be searchable on bnkle&#xD;
+&#xD;
+- Control which of your Magento store products you want to be searchable on bnkle&#xD;
+&#xD;
+&#xD;
+&#xD;
+Multiple store locations&#xD;
+&#xD;
+&#x2013; identify all your store locations and match listings to the locations&#xD;
+&#xD;
+&#xD;
+&#xD;
+Analytics&#xD;
+&#xD;
+- see how individual products are performing&#xD;
+&#xD;
+- see which stores are performing best, by product, by store&#xD;
+&#xD;
+- see which products are being clicked through to your Magento store&#xD;
+&#xD;
+&#xD;
+&#xD;
+Traffic flow - Control how many product views you will get each month&#xD;
+&#xD;
+- Free flow: 1,000 free product views per month&#xD;
+&#xD;
+- Smooth flow: @65 cents per 1,000 views Set a monthly spend that is evenly spread&#xD;
+&#xD;
+- Rush hour: Set a monthly budget to run in response to search demand&#xD;
+&#xD;
+&#xD;
+Visit bnkle.com/sellers to create your free account</description>
+    <notes>Fix bugs</notes>
+    <authors><author><name>Bnkle</name><user>Bnkle</user><email>andrew@bnkle.com</email></author></authors>
+    <date>2015-07-29</date>
+    <time>07:18:44</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Bnkle_BankleRssFeeds.xml" hash="0ce0d4c8ab53f85c81d8269b5b6bec41"/></dir></target><target name="magecommunity"><dir name="Bnkle"><dir name="BankleRssFeeds"><dir name="controllers"><file name="IndexController.php" hash="fedb59894c770a7f171e6863828e1c64"/></dir><dir name="etc"><file name="adminhtml.xml" hash="9b521ec7bcb55702b56dd8f24dd1b097"/><file name="config.xml" hash="aad552b071d0d18b9a913e645bf5baca"/><file name="system.xml" hash="98b051f041edf0221529eb5af85f9bb2"/></dir><dir name="Helper"><file name="Data.php" hash="e6a5bc301751b838fb31923975ed6319"/><file name="SimpleXml.php" hash="8930c16e7cc05542a819cd9f63472b4c"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

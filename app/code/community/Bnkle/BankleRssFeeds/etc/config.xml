@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+
+   <config>
+
+      <modules>
+
+         <Bnkle_BankleRssFeeds>
+
+            <version>0.1.6</version>
+
+         </Bnkle_BankleRssFeeds>
+
+      </modules>
+
+      <frontend>
+
+         <routers>
+
+            <bnklerssfeeds>
+
+                  <use>standard</use>
+
+                  <args>
+
+                     <module>Bnkle_BankleRssFeeds</module>
+
+                     <frontName>bnklerssfeeds</frontName>
+
+                  </args>
+
+            </bnklerssfeeds>
+
+         </routers>
+
+      </frontend>
+
+
+
+      <global>
+
+         <models>
+
+            <bnklerssfeeds>
+
+               <class>Bnkle_BankleRssFeeds_Model</class>
+
+            </bnklerssfeeds>
+
+         </models>
+
+         <blocks>
+
+            <bnklerssfeeds>
+
+               <class>Bnkle_BankleRssFeeds_Block</class>
+
+            </bnklerssfeeds>
+
+         </blocks>
+
+         <helpers>
+
+            <bnklerssfeeds>
+
+               <class>Bnkle_BankleRssFeeds_Helper</class>
+
+            </bnklerssfeeds>
+
+         </helpers>
+
+        
+
+
+
+      </global>
+
+      <default>
+
+      	<general>
+
+            <bnklerssfeeds>
+
+                <enabled>1</enabled>
+
+            
+
+                
+
+
+
+             
+
+            </bnklerssfeeds>
+
+        </general>      
+
+      </default>
+
+   </config>
+
