@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/M2b",
+    "name": "openmage-module-fostering\/m2b",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "bnkle-Magento integration. Auto link your bricks &amp; mortar inventory to bnkle and get more customers in store.",
     "authors": [
