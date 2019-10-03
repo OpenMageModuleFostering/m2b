@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/M2b",
+    "name": "OpenMageModuleFostering\/M2b",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "bnkle-Magento integration. Auto link your bricks &amp; mortar inventory to bnkle and get more customers in store.",
     "authors": [
-    {
-        "name": "Bnkle",
-        "email": "andrew@bnkle.com"
-    }
-],
+        {
+            "name": "Bnkle",
+            "email": "andrew@bnkle.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
